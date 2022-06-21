@@ -5,7 +5,7 @@
   &--overlay {
     max-width: 1600px;
     height: 600px;
-    background-image: $hero-bg-gradient
+    background-image: $hero-bg-gradient;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,18 @@
   &__content {
     padding: 200px 0;
     text-align: center;
+  }
+  &__title {
+    max-width: 650px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    color: $third-text-color;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   &__button {
     padding: 10px 32px;
