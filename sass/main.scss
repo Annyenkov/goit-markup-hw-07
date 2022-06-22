@@ -1,7 +1,9 @@
+@import "./base/modern-normalize";
 @import "./base/base-style";
 @import "./base/variables";
 @import "./utils/container";
 @import "./utils/section";
+@import "./components/header";
 @import "./components/logo";
 @import "./components/nav";
 @import "./components/contacts";
@@ -12,4 +14,5 @@
 @import "./components/clients";
 @import "./components/footer";
 @import "./components/modal";
+@import "./components/portfolio";
 @import "./utils/button"
