@@ -48,10 +48,10 @@
     </header>
     <main>
         <!--Окно заказа услуги-->
-        <section class="hero hero--overlay" >
+        <section class="hero hero-bg hero--overlay hero--position" >
             <div class="hero__content">
-              <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-              <button class="hero__button" type="button" data-modal-open>Заказать услугу</button>
+              <h1 class="hero__title hero__title--position hero__title--color hero__title--text">Эффективные решения для вашего бизнеса</h1>
+              <button class="button hero__button hero__button-text hero__button--color" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!--Особенности-->
@@ -406,7 +406,7 @@
               <label for="subscribe">
                 <input class="footer-email" type="email" name="mail" id="subscribe" placeholder="E-mail">
               </label>
-              <button class="footer-btn" type="submit">
+              <button class="button footer__button footer__button--color footer__button--text" type="submit">
                 Подписаться
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#iconsend"></use>
@@ -455,11 +455,11 @@
               </label>
               <label class="modal__checkbox" for="policy">
                 <input class="modal__policy" type="checkbox" name="policy" id="policy">
-                <span class="checkbox__accept"></span>
+                <span class="modal__accept"></span>
                 Соглашаюсь с рассылкой и принимаю
                 <a class="modal__contract" href="">Условия договора</a>
               </label>
-              <button class="submit-btn" type="submit">Отправить</button>
+              <button class="button modal__button modal__button--color modal__button--text modal__button--position" type="submit">Отправить</button>
             </div>
           </form>
         </div>
