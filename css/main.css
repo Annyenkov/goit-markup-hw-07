@@ -342,6 +342,9 @@ ul {
 .logo--indent {
   margin-bottom: 20px;
 }
+.logo--color {
+  color: #fff;
+}
 
 .nav__list {
   display: -webkit-box;
