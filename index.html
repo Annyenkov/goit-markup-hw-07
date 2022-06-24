@@ -17,17 +17,21 @@
 <body>
     <!--Хэдер-->
     <header class="header">
-        <div class="container container--baseline">
-          <a class="logo header__logo" lang="en" href="./index.html"> <span class="logo__part">Web</span>Studio</a>
-          <button>
-            <svg width="40" height="40">
-              <use href="./images/menu.svg"></use>
-            </svg>
-            <svg width="40" height="40">
-              <use href="./images/icons.svg#iconclose"></use>
-            </svg>
-          </button>
-          <div class="menu">
+        <div class="container container--baseline container__mobile">
+          <div class="header__mobile">
+            <a class="logo header__logo" lang="en" href="./index.html"> <span class="logo__part">Web</span>Studio</a>
+            <button class="header__btn" data-menu-open>
+              <svg width="40" height="40">
+                <use href="./images/icons.svg#iconmenu"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="menu" data-menu>
+            <button class="menu__btn" data-menu-close>
+              <svg height="40" width="40">
+                <use href="./images/icons.svg#iconclose"></use>
+              </svg>
+            </button>
             <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__item"><a class="nav__link nav__link--current" href="./index.html">Студия</a></li>
@@ -37,7 +41,7 @@
             </nav>
             <ul class="contact contact--style">
               <li class="contact__item">
-                <a class="contact__link contact__link--indent" href="mailto:info@devstudio.com">
+                <a class="contact__link contact__link--indent contact__link--style" href="mailto:info@devstudio.com">
                   <svg class="contact__icon" width="16" height="12">
                     <use href="./images/icons.svg#iconenvelope"></use>
                   </svg>
@@ -45,12 +49,30 @@
                 </a>
               </li>
               <li class="contact__item">
-                <a class="contact__link contact__link--style" href="tel:+380961111111">
+                <a class="contact__link" href="tel:+380961111111">
                   <svg class="contact__icon" width="10" height="16">
                     <use href="./images/icons.svg#iconsmartphone"></use>
                   </svg>
                   +38 096 111 11 11
                 </a>
+              </li>
+            </ul>
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link" href="">Insagram</a>
+                <p class="social__border"></p>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="">Twitter</a>
+                <p class="social__border"></p>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="">Facebook</a>
+                <p class="social__border"></p>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="">Linkedin</a>
+                <p class="social__border"></p>
               </li>
             </ul>
           </div>
@@ -476,5 +498,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
